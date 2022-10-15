@@ -1,0 +1,22 @@
+h1{
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: rgb(165, 42, 65);
+}
+.cssTest div > ul {
+    list-style: none;
+    display: flex;
+    column-gap: 50px;
+    flex-flow: row wrap;
+}
+
+.cssTest div > ul > li {
+    min-width: 250px;
+    width: 15%;
+}
+.cssTest .markdown-preview-section {
+    width: 100% !important;
+    max-width: 100% !important;
+ }
